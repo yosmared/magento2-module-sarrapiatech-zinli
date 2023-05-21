@@ -6,11 +6,9 @@
  - [Installation](#markdown-header-installation)
  - [Configuration](#markdown-header-configuration)
  - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
-
 
 ## Main Functionalities
-Zinli Gateway Payment
+Zinli Gateway Payment - Magento Module
 
 ## Installation
 \* = in production please use the `--keep-generated` option
@@ -24,11 +22,6 @@ Zinli Gateway Payment
 
 ### Type 2: Composer
 
- - Make the module available in a composer repository for example:
-    - private repository `repo.magento.com`
-    - public repository `packagist.org`
-    - public github repository as vcs
- - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
  - Install the module composer by running `composer require sarrapiatech/module-zinli`
  - enable the module by running `php bin/magento module:enable SarrapiaTech_Zinli`
  - apply database updates by running `php bin/magento setup:upgrade`\*
@@ -44,9 +37,5 @@ Zinli Gateway Payment
 
  - Payment Method
 	- Zinli
-
-
-## Attributes
-
 
 
