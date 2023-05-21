@@ -1,0 +1,22 @@
+{
+    "name": "sarrapiatech/module-zinli",
+    "description": "Zinli Gateway Payment",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yosmar Ramirez",
+            "email": "yosmared@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SarrapiaTech\\Zinli\\": ""
+        }
+    }
+}
